@@ -8,7 +8,7 @@
 
     }
     .news{
-        @apply flex flex-col md:flex-row border-2 md:p-4 p-2 border-[#333333] items-center md:gap-4 gap-2 transition-all duration-300 cursor-pointer mt-2 hover:scale-105 dark:border-white ;
+        @apply flex flex-col md:flex-row border-2 md:p-4 p-2 border-[#333333] items-center md:gap-4 gap-2  md:transition-all duration-300 cursor-pointer mt-2 md:hover:scale-105 active:transition-none dark:border-white ;
     }
     .span{
        @apply bg-[#5677ac26] dark:bg-gray-400 text-black transition-all text-xs md:text-sm uppercase px-1.5 rounded-sm hover:bg-black hover:text-white cursor-pointer hover:dark:bg-gray-600;
